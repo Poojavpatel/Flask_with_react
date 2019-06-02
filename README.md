@@ -28,7 +28,7 @@
         {
             inject:true,
             template:paths.appHtml,
-            filename:path.resolve("../../templates/index.html")
+            filename:"../../templates/index.html"
         }
     )
     ```
@@ -50,3 +50,12 @@
     ```
     "homepage":"/static/react"
     ```
+
+* To build and run the application
+    ```bash
+    $ cd frontend
+    $ npm run build
+    ```
+
+    Building automatically creates required files and folders in static/ and templates/
+
