@@ -51,7 +51,7 @@
     "homepage":"/static/react"
     ```
 
-* To build and run the application
+* To build the application
     ```bash
     $ cd frontend
     $ npm run build
@@ -59,3 +59,20 @@
 
     Building automatically creates required files and folders in static/ and templates/
 
+* To run the app backend
+    ```bash
+    $ cd ..
+    $ cd backend
+    $ python main.py
+    ```
+    This will run the app on http://127.0.0.1:5000/
+
+    ![React Homepage|5%](ss/homepage.png?raw=true "React Homepage")
+
+* Hence to run the app
+    ```
+    $ cd frontend
+    $ npm run build
+    $ cd ../backend
+    $ python main.py
+    ```
