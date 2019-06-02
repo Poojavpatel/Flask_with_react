@@ -40,3 +40,13 @@
     ```
     Token is passed form flask to react along with render template
     and can be accessed any where in the react app
+
+* Access the token if frontend frontend > src > app.js
+    ```html
+    <p>My Token is {window.token} </p>
+    ```
+
+* in frontend > package.json   add 
+    ```
+    "homepage":"/static/react"
+    ```
