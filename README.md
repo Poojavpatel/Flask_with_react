@@ -17,5 +17,8 @@ To change the default build settings
 frontend > config > paths.js    
 
 ```javascript
-appBuild:resolveApp('../')
+appBuild:resolveApp('../backend/staic/react')
 ```
+frontend > config > webpack-config.js
+
+change all `static/` to `   `
